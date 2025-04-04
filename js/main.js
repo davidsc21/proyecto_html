@@ -1,12 +1,12 @@
 const productList = [
+    "bolso rojo",
+    "gafas oscuras",
     "vestido amarillo",
-    "gafas urbanas",
-    "traje negro",
-    "bolso rojo"
+    "traje negro"
 ];
 
 const resultBox = document.querySelector(".results"); // Cambiado a .results
-const inputBox = document.querySelector(".search-box"); // Cambiado a .search-bar
+const inputBox = document.querySelector(".search-bar"); // Cambiado a .search-bar
 
 const displayResults = function (results) {
     if (results.length === 0) {
