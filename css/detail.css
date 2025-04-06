@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu{
+    background-color: black;
+    align-items: center;
+    margin: 0px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 1em 1fr;
+    width: 100%;
+    img{
+        border-radius: 60px;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 15px;
+    }
+    p{
+        text-align: center;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        margin: 30%;
+    }
+}
