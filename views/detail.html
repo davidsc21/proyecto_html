@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temu Detalles</title>
-    <link rel="stylesheet" href="../css/detail.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detalle del Producto</title>
+  <link rel="stylesheet" href="../css/detail.css" />
 </head>
 <body>
     <div class="menu">
@@ -13,5 +13,66 @@
         <a href="#">Categorias</a>
         <a href="#">Carrito</a>
     </div>
+  <div class="container">
+    <div class="product-detail">
+      <div class="product-image">
+        <img src="../storage/font/img/producto 1.png">
+      </div>
+
+      <div class="product-info">
+        <a  href="../index.html">volver</a>
+        <h1 class="product-title">Bolso </h1>
+        <div class="rating">5.0⭐</div>
+
+        <div class="counter">
+          <button class="btn-minus">➖</button>
+          <span class="quantity">1</span>
+          <button class="btn-plus">➕</button>
+        </div>
+
+        <p class="description">
+           Bolso  super moderno ideal para guardar cosas...
+        </p>
+
+        <button class="read-more-btn">Leer más 📖</button>
+
+        <div class="selectors">
+          <div class="size-selector">
+            <h3>Tallas</h3>
+            <div class="items">
+              <div class="size">S</div>
+              <div class="size">M</div>
+              <div class="size">L</div>
+              <div class="size">XL</div>
+            </div>
+          </div>
+
+          <div class="color-selector">
+            <h3>Colores</h3>
+            <div class="colors">
+              <div class="color" style="background-color: #000;"></div>
+              <div class="color" style="background-color: #2c3e50;"></div>
+              <div class="color" style="background-color: #3498db;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="add-to-cart">
+          <a href="../views/checkout.html"> 🛒Añadir al carrito </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <dialog id="readMoreModal">
+    <h2>Más Información</h2>
+    <p>
+        “En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.”
+    </p>
+    <button id="closeModal">Cerrar</button>
+  </dialog>
+
+  <script src="../js/detail.js"></script>
 </body>
 </html>
