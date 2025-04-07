@@ -11,3 +11,6 @@ Este proyecto es una tienda en línea sencilla con un diseño moderno y responsi
 - ✅ Interfaz limpia y funcional
 
 ## 📁 Estructura de archivos
+
+Pagina publicada:
+https://proyectoht.netlify.app/
