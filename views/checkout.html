@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
+    <title>Carrito</title>
     <link rel="stylesheet" href="../css/checkout.css">
 </head>
 <body>
     <header>
         <button class="back-button">
-            <a href="../index.html"
+            <a href="../index.html">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
                 <polyline points="15 18 9 12 15 6"></polyline>
             </svg>
+            </a>
         </button>
         <h1>Carrito</h1>
-        <button class="menu-button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
-                <line x1="4" x2="20" y1="12" y2="12"></line>
-                <line x1="4" x2="20" y1="6" y2="6"></line>
-                <line x1="4" x2="20" y1="18" y2="18"></line>
-            </svg>
-        </button>
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Carrito</a></li>
+                </ul>
+            </div>
+        </nav>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -111,7 +122,7 @@
             </div>
         </div>
     </main>
-
-    <script src="script.js"></script>
+    <script src="../js/checkout.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

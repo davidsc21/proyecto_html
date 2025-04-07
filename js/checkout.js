@@ -3,17 +3,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const products = [
         {
             id: 1,
-            name: 'Modern light clothes',
-            description: 'Dress modern',
-            price: 212.99,
+            name: 'Bolso',
+            description: 'Bolso',
+            price: 58000,
             quantity: 4,
             image: 'https://via.placeholder.com/80'
         },
         {
             id: 2,
-            name: 'Modern light clothes',
-            description: 'Dress modern',
-            price: 162.99,
+            name: 'gafas',
+            description: 'gafas',
+            price: 28000,
             quantity: 1,
             image: 'https://via.placeholder.com/80'
         }
@@ -78,12 +78,26 @@ document.addEventListener('DOMContentLoaded', function() {
             updateQuantity(id, -1);
         });
     });
-
-    // Event listener para el botón de pago
-    payButton.addEventListener('click', function() {
-        alert('Procesando pago...');
-    });
-
     // Inicializar totales
     updateTotals();
+
+    const pagar = document.querySelector(".pay-button"); 
+    pagar.addEventListener("click", function() {
+
+        Swal.fire({
+            title: "Compra exitosa!",
+            icon: "success",
+            draggable: true
+        });
+    })
+    document.addEventListener('DOMContentLoaded', () =>{
+        const hamburger = document.getElementById('menu-button');
+        const navLinks = document.getElementById('hamburguer');
+      
+        hamburger.addEventListener('click', () => {
+          navLinks.classList.toggle('show');
+        });
+      });
 });
+
+

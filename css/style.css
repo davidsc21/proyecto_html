@@ -18,6 +18,7 @@
         margin-left: 30%;
         margin-right: 30%;
         margin-top: 15px;
+        
     }
     p{
         text-align: center;
@@ -239,7 +240,6 @@ button{
             font-size: 0%;
         }
     }
-    
     .saludo{
         text-align: center;
         width: 100%;
@@ -489,46 +489,45 @@ button{
 
     .productos{
         width: 100%;
-        padding: 0 20px;
-        margin: 7px; 
         height: 500px;
+        margin: 10px;
         display: grid;
         grid-template-columns: repeat (2,2fr);
         justify-content: center;
         gap: 10px; 
         .item{
-            width: 240px;
-            height: 370px;
+            width: 180px;
+            height: 290px;
             border-radius: 5px;
             padding: 0;
         }
         .itemlargo{
-            width: 240px;
-            height: 400px;
+            width: 180px;
+            height: 345px;
             border-radius: 5px;
             padding: 0;
         }
         .imga1{
-            width: 240px;
-            height: 280px;
+            width: 180px;
+            height: 200px;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
         }
         .imga2{
-            width: 240px;
-            height: 300px;
+            width: 180px;
+            height: 250px;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
         }
         .imga3{
-            width: 240px;
-            height: 270px;
+            width: 180px;
+            height: 200px;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
         }
         .imga4{
-            width: 240px;
-            height: 300px;
+            width: 180px;
+            height: 250px;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
         }
